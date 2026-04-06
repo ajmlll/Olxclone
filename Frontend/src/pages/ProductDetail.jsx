@@ -92,7 +92,7 @@ const ProductDetail = () => {
                 </div>
 
                 {/* Contact — only show to logged-in users */}
-               
+
                 {user ? (
                     !isOwner && (  // ← hide if current user is the seller
                         <a href={`tel:${product.seller?.phone}`} className="btn-contact">

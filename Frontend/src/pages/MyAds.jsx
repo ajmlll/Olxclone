@@ -26,7 +26,7 @@ const MyAds = () => {
         <Link to="/sell" className="btn-primary">+ Post New Ad</Link>
       </div>
 
-      <Alert message={error}   type="error" />
+      <Alert message={error} type="error" />
       <Alert message={success} type="success" />
 
       {myAds.length === 0 ? (
